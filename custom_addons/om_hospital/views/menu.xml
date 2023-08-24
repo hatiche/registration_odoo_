@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+     <menuitem
+        id      ="menu_hospital_root"
+        name    ="hospital"
+        web_icon="static/description/icon.png"
+        sequence="10"/>
+    
+    <menuitem
+        id      ="menu_patient_root"
+        name    ="patient details"
+        parent  ="menu_hospital_root"
+        sequence="10"/>
+
+    
+
+    
+
+</odoo>
+<!-- action  = ""
+        groups  ="" -->

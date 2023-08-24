@@ -1,0 +1,22 @@
+{
+    'name': 'Hospital Management',
+    'version': '1.0.0',
+    'sequence':-100,
+    'application': True,
+    'auther': 'Harsh',
+    'category': 'hospital/registration',
+    'summary': 'hospital patient',
+    'description': """ entrey liest for records in hospital   """,
+    'installable': True,
+    'auto_install': False,
+    'depends': [],
+    'data': [
+        'views/menu.xml',
+        'security/ir.model.access.csv',
+        'views/patient_view.xml',
+        'views/female_patient.xml',
+    ],
+    'demo': [],
+    'assets': {},
+    'license': 'LGPL-3',
+}
